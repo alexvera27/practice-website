@@ -1,6 +1,6 @@
 .links {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
     ". news ."
     ". ss23p ."
@@ -16,7 +16,7 @@
 
 .news {
     grid-area: news;
-    justify-self: center;
+    display: inline;
 }
 
 .news:hover {
@@ -25,34 +25,74 @@
 
 .ss23p {
     grid-area: ss23p;
+    display: inline;
+}
+
+.ss23p:hover {
+    background-color: red;
 }
 
 .ss23l {
     grid-area: ss23l;
+    display: inline;
+}
+
+.ss23l:hover {
+    background-color: red;
 }
 
 .shop {
     grid-area: shop;
+    display: inline;
+}
+
+.shop:hover {
+    background-color: red;
 }
 
 .random {
     grid-area: random;
+    display: inline;
+}
+
+.random:hover {
+    background-color: red;
 }
 
 .about {
     grid-area: about;
+    display: inline;
+}
+
+.about:hover {
+    background-color: red;
 }
 
 .stores {
     grid-area: stores;
+    display: inline;
+}
+
+.stores:hover {
+    background-color: red;
 }
 
 .contact {
     grid-area: contact;
+    display: inline;
+}
+
+.contact:hover {
+    background-color: red;
 }
 
 .mailing-list {
     grid-area: mailing-list;
+    display: inline;
+}
+
+.mailing-list:hover {
+    background-color: red;
 }
 
 .logo {
@@ -63,4 +103,46 @@
   .logo img {
     max-width: 150px;
     height: auto;
+  }
+
+  body {
+    font-family:  'Courier New', Courier, monospace;
+    font-size: 11px;
+    color: white;
+  }
+
+  .links li.news a {
+    color: white;
+  }
+
+  .links li.ss23p a {
+    color: white;
+  }
+
+  .links li.ss23l a {
+    color: white;
+  }
+
+  .links li.shop a {
+    color: white;
+  }
+
+  .links li.random a {
+    color: white;
+  }
+
+  .links li.about a {
+    color: white;
+  }
+
+  .links li.stores a {
+    color: white;
+  }
+
+  .links li.contact a {
+    color: white;
+  }
+
+  .links li.mailing-list a {
+    color: white;
   }
